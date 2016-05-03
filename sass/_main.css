@@ -1,0 +1,205 @@
+main {
+  padding-bottom: 0; }
+  main #form {
+    display: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    padding: 34px 70px; }
+    main #form input {
+      width: 32%;
+      font-size: 14px;
+      padding: 6px 18px;
+      border-radius: 4px;
+      margin-right: 36px;
+      color: #fff;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      background-color: rgba(0, 0, 0, 0.3); }
+      main #form input:focus {
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0.5); }
+    main #form button {
+      color: #fff;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 4px 20px;
+      font-size: 14px;
+      border-radius: 4px; }
+      main #form button:focus {
+        outline: none; }
+      main #form button:hover {
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        cursor: pointer; }
+  main .boxs {
+    margin: 0 auto;
+    padding-top: 80px; }
+    main .boxs #latest {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 70px 40px;
+      margin-bottom: 80px; }
+      main .boxs #latest h2 {
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 60px;
+        display: inline-block;
+        letter-spacing: 8px;
+        padding: 2px 50px;
+        color: #00ffff;
+        /*31eded*/ }
+      main .boxs #latest p {
+        color: white;
+        margin-bottom: 36px;
+        text-align: left; }
+      main .boxs #latest button {
+        font-size: 14px;
+        background-color: inherit;
+        border: 2px solid yellow;
+        padding: 6px 40px;
+        letter-spacing: 6px;
+        border-radius: 4px;
+        font-weight: bold; }
+        main .boxs #latest button a {
+          color: rgba(255, 255, 255, 0.8); }
+        main .boxs #latest button:focus {
+          outline: none; }
+        main .boxs #latest button:hover {
+          background-color: yellow;
+          cursor: pointer; }
+          main .boxs #latest button:hover a {
+            color: #000; }
+    main .boxs #news,
+    main .boxs #notifications,
+    main .boxs #download,
+    main .boxs #project,
+    main .boxs #exc_project,
+    main .boxs #friends {
+      vertical-align: top;
+      display: inline-block;
+      margin-bottom: 50px; }
+      main .boxs #news h3,
+      main .boxs #notifications h3,
+      main .boxs #download h3,
+      main .boxs #project h3,
+      main .boxs #exc_project h3,
+      main .boxs #friends h3 {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+        color: #00ffff;
+        margin: 0;
+        letter-spacing: 4px;
+        font-size: 14px;
+        padding: 6px 20px; }
+      main .boxs #news ul,
+      main .boxs #notifications ul,
+      main .boxs #download ul,
+      main .boxs #project ul,
+      main .boxs #exc_project ul,
+      main .boxs #friends ul {
+        padding-top: 26px;
+        padding-bottom: 10px;
+        padding: 0; }
+        main .boxs #news ul li,
+        main .boxs #notifications ul li,
+        main .boxs #download ul li,
+        main .boxs #project ul li,
+        main .boxs #exc_project ul li,
+        main .boxs #friends ul li {
+          list-style: none; }
+          main .boxs #news ul li a,
+          main .boxs #notifications ul li a,
+          main .boxs #download ul li a,
+          main .boxs #project ul li a,
+          main .boxs #exc_project ul li a,
+          main .boxs #friends ul li a {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 6px 10px; }
+            main .boxs #news ul li a p,
+            main .boxs #notifications ul li a p,
+            main .boxs #download ul li a p,
+            main .boxs #project ul li a p,
+            main .boxs #exc_project ul li a p,
+            main .boxs #friends ul li a p {
+              width: 89%;
+              padding-right: 26px;
+              padding-left: 10px;
+              font-size: 12px;
+              display: inline-block;
+              margin-left: 0; }
+            main .boxs #news ul li a span,
+            main .boxs #notifications ul li a span,
+            main .boxs #download ul li a span,
+            main .boxs #project ul li a span,
+            main .boxs #exc_project ul li a span,
+            main .boxs #friends ul li a span {
+              display: inline-block;
+              width: 10%;
+              font-size: 12px; }
+            main .boxs #news ul li a:hover,
+            main .boxs #notifications ul li a:hover,
+            main .boxs #download ul li a:hover,
+            main .boxs #project ul li a:hover,
+            main .boxs #exc_project ul li a:hover,
+            main .boxs #friends ul li a:hover {
+              color: white;
+              background: none; }
+      main .boxs #news div,
+      main .boxs #notifications div,
+      main .boxs #download div,
+      main .boxs #project div,
+      main .boxs #exc_project div,
+      main .boxs #friends div {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: rgba(255, 255, 255, 0.8);
+        padding: 0;
+        text-align: right; }
+        main .boxs #news div a,
+        main .boxs #notifications div a,
+        main .boxs #download div a,
+        main .boxs #project div a,
+        main .boxs #exc_project div a,
+        main .boxs #friends div a {
+          display: inline-block;
+          margin-bottom: 0;
+          font-size: 12px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+          letter-spacing: 4px;
+          color: yellow;
+          font-weight: bold;
+          padding: 0 18px; }
+          main .boxs #news div a:hover,
+          main .boxs #notifications div a:hover,
+          main .boxs #download div a:hover,
+          main .boxs #project div a:hover,
+          main .boxs #exc_project div a:hover,
+          main .boxs #friends div a:hover {
+            color: rgba(255, 255, 0, 0.8); }
+    main .boxs #news {
+      width: 68%; }
+    main .boxs #notifications {
+      width: 68%; }
+    main .boxs #download {
+      width: 28%;
+      float: right;
+      max-height: 200px; }
+      main .boxs #download ul li a p {
+        width: 73%; }
+      main .boxs #download ul li a span {
+        width: 27%; }
+    main .boxs #project {
+      width: 48%;
+      margin-right: 38px; }
+    main .boxs #exc_project {
+      width: 48%; }
+    main .boxs #project ul li a p, main .boxs #exc_project ul li a p {
+      width: 84%; }
+    main .boxs #project ul li a span, main .boxs #exc_project ul li a span {
+      width: 14%; }
